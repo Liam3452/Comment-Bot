@@ -38,7 +38,7 @@ def Vist_Tag(browser, url):
         time.sleep(sleepy_time)
 
         browser.find_element_by_xpath('/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').click()
-        text = "go follow @_python.exe_ if you want to see cool computer hacking content "
+        text = " cool post " #coment you want the bot to post goes here 
         sleep(70)
         browser.find_element_by_xpath('/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/textarea').send_keys(text)
         browser.find_element_by_xpath('/html/body/div[4]/div[2]/div/article/div[3]/section[3]/div/form/button').click()
